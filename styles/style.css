@@ -61,7 +61,7 @@ body {
 }
 
 .banner {
-  background-image: url("../img/banner1.png");
+  background-image: url("img/banner1.png");
 }
 .banner .container-banner {
   display: flex;
@@ -192,10 +192,10 @@ body {
   margin-top: -20px;
 }
 .card--article .card__image--article {
-  background-image: url("/img/section1_1.png");
+  background-image: url("img/section1_1.png");
 }
 .card--product .card__image--product {
-  background-image: url("/img/section1_2.png");
+  background-image: url("img/section1_2.png");
   height: 192px;
 }
 .card__content--product {
