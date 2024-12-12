@@ -1,0 +1,39 @@
+$background-color: #ffffff; 
+$background-color-secondary: #000000; 
+$text-color: #000000; 
+$text-color-secondary: #ffffff; 
+$border-color: #000000; 
+$border-color-secondary: #ffffff; 
+
+$font-family-base: 'Termina Test', sans-serif; 
+$font-family-heading:'Open Sans', sans-serif;
+$demi: 600; 
+$semibold: 600;
+$light: 300;
+$medium:500;
+$font-size-large: 36px; 
+$bold: 700;
+
+
+@mixin mobile {
+    @media (max-width: 576px) { @content; }
+  }
+  
+  @mixin tablet {
+    @media (min-width: 577px) and (max-width: 768px) { @content; }
+  }
+  
+  @mixin small-screen {
+    @media (min-width: 769px) and (max-width: 992px) { @content; }
+  }
+  
+  @mixin medium-screen {
+    @media (min-width: 993px) and (max-width: 1200px) { @content; }
+  }
+  
+  @mixin large-screen {
+    @media (min-width: 1201px) { @content; }
+  }
+  
+
+
