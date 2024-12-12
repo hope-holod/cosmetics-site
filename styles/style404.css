@@ -58,7 +58,7 @@ body {
 
 .main {
   max-height: 534px;
-  background-image: url("/img/bg404.png");
+  background-image: url("../img/bg404.png");
   background-size: cover;
 }
 .main .heading {
