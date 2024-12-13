@@ -72,41 +72,6 @@ body{
             font-size:36px;
             line-height: 42px;
         }
-        //
-
-        // .slides{
-        //   position: relative;
-        //   width: 100%;
-        //   height: 100%;
-        //   overflow: hidden;
-          
-        //   .slide1{
-        //     background-image: url('../img/banner1.png');
-        //   }
-        //   .slide2{
-        //     background-image: url('../img/banner2.png');
-        //   }
-        //   .slide3{
-        //     background-image: url('../img/banner3.png');
-        //   }
-        //   .slide { 
-        //     position: absolute; 
-        //     top: 0; 
-        //     left: 0; 
-        //     width: 100%; 
-        //     height: 100%; 
-        //     background-size: cover; 
-        //     background-position: center; 
-        //     opacity: 0; 
-        //     transition: 
-        //     opacity 0.5s ease-in-out;
-        //     &.active { 
-        //       opacity: 1;
-        //     }
-        //   }
-        // }
-
-        //
         .circles{
         display: flex;
         justify-content:space-between;
@@ -123,27 +88,8 @@ body{
                 &--transparent{ 
                     opacity: 0.4; 
                 }
-                // &.active {
-                //    opacity: 1;
-                // }
            }
         }
-        // .prev, .next {
-        //   position: absolute;
-        //   top: 50%; 
-        //   transform: translateY(-50%); 
-        //   background-color: rgba(0, 0, 0, 0.5); 
-        //   color: #fff; 
-        //   border: none; 
-        //   padding: 10px; 
-        //   cursor: pointer; 
-        // }
-        // .prev {
-        //   left: 10px;
-        // } 
-        // .next {
-        //   right: 10px; 
-        // } 
     }
 }
 .heading{
@@ -158,16 +104,9 @@ body{
 .cards {
   display: grid;
   grid-template-columns: 672px repeat(2, 219px);
-  //grid-template-columns: 672px repeat(2, 219px) 40px; //костыль для стрелки
-  // grid-template-rows: 312px;
   justify-content: center;
   gap: 31px;
   padding-bottom: 138px;
-  //padding-left: 71px; //костыль для стрелки
-  // .arrow{
-  //   margin-top: 230px;
-  //   margin-left: 24px;
-  // }
 }
 
 .card {
@@ -198,7 +137,6 @@ body{
     height: 42px;
     width:90px;
     padding: 5px 7px 7px 6px;
-    // align-self: flex-start;
     position: absolute;
     top: 18px; 
     left: 36px;
@@ -237,7 +175,6 @@ body{
   &__icon2{
     padding-right: 11px;
     height: 15px;
-    // width: 15px;
   }
   &__time {
     font-family: $font-family-heading;
@@ -330,20 +267,7 @@ body{
     color: $text-color-secondary;
   }
 }
-  // a{
-  //   text-decoration: none;
-  //   color: $text-color;  
-  //   font-family: $font-family-heading;
-  //   font-size: 12px;
-  //   font-weight: $semibold;
-  // }
-  // &:hover{
-  //   background-color: $background-color-secondary;
-  //   border: 1px solid $border-color-secondary;
-  //   a{
-  //     color: $text-color-secondary;
-  //   }
-  // }
+
 .blog{
   text-align: center;
   padding-bottom: 133px ;
@@ -362,9 +286,6 @@ body{
   padding-left: 0px;
 }
 .card{
-  // &--blog{
-  //    position: static;
-  // }
   &__content--blog{
   padding: 0;
   height: auto;
@@ -405,9 +326,6 @@ body{
   }
   &__category--blog{
     margin-right: 107px;
-    // padding-right: 17px;
-    // width: 154px;
-    ////костыль со всеми отступами в флексе
   }
   &__category--makeup{
     margin-right: 110px;
@@ -426,7 +344,7 @@ body{
    max-height: 252px;
   }
   &__icon3--blog{
-    align-self: flex-end; //костыль портит флекс
+    align-self: flex-end; 
   }
 }
 .newproducts{
@@ -504,9 +422,6 @@ body{
     // height: 6.04px;
     height: 15px;
   }
-  // .line2{
-  //   height: 100%;
-  // } //костыль
   .wordline{ 
     font-size: 42px;
     line-height: 48px;
@@ -539,28 +454,13 @@ body{
   width: 300px;
   font-size: 18px;
 }
-// .content--footer{ //первый вариант
-//   display: grid;
-//   grid-template-columns: 551px repeat(3, 196px);
-//   grid-template-rows: 200px;
-//   justify-content: center;
-//   text-align: left;
-//   gap: 45px;
-//   padding: 64px 0 75px 102px;
-// }
-// padding: 64px 0 75px 6.6vw;
-// grid-template-columns: 541px repeat(2, 190px) 1fr; 
-// до 1361 вкл
 .content--footer{
   display: grid;
 grid-template-columns: 541px repeat(2, 190px) 1fr;
-// grid-template-columns: 1fr repeat(2, 190px) 1fr;
-//gap: 3.8vw; на 1360 
 grid-template-rows: 200px;
 text-align: left;
 gap: 55px;
 padding: 64px 0 75px 93px;
-// padding: 64px 0 75px 6.6vw; на 1360
 }
 .form{
   display: flex;
@@ -630,12 +530,6 @@ padding: 64px 0 75px 93px;
     }
  }
 }
-// .privacyterms2{ //первый вариант
-//   padding-left: 2px;
-// }
-// .privacyterms3{
-//   padding-left: 7px;
-// } display: grid
 
 .icons{
   display: flex;
@@ -713,9 +607,7 @@ padding: 64px 0 75px 93px;
   max-width: 1200px; 
 }
 .content--footer{
-  // gap: 1vw;
   padding: 64px 0 75px 0vw;
-  // grid-template-columns: repeat(3, 1fr); 
   grid-template-rows: auto auto; 
   row-gap: 50px;
   grid-template-areas: 
@@ -876,9 +768,6 @@ margin-left: -100px;
   margin-right: 10px;
 }
 .cards--new {
-  // grid-template-columns: repeat(4, 221px);
-  // grid-template-rows: 282px;
-  // gap: 30px;
   grid-template-columns: repeat(4, 170px);
   grid-template-rows: 250px;
   gap: 17px;
@@ -1059,7 +948,6 @@ margin-left: 0;
   justify-self: start; 
 }
 .blog .card {
-  // overflow: visible;
   display: flex;
   flex-wrap: wrap;
   max-width: 400px;
