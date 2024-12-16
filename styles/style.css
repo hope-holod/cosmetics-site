@@ -1071,33 +1071,45 @@ body {
     line-height: 20px;
   }
   .gallery {
-    grid-template-columns: 200px;
-    grid-template-rows: repeat(3, 140px);
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 195px);
     justify-items: center;
     justify-content: center;
     gap: 15px;
   }
+  .picture__img {
+    max-width: 300px;
+}
   .picture:nth-of-type(4), .picture:nth-of-type(5), .picture:nth-of-type(6) {
     display: none;
   }
   .categories .button, .blog .button, .newproducts .button {
-    width: 280px;
+    width: 300px;
   }
   .categories {
     padding-bottom: 60px;
   }
   .cards--blog {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: repeat(3, auto);
     gap: 25px;
   }
   .blog .card {
     justify-self: center;
+    flex-wrap: nowrap;
+    max-width: 300px;
   }
   .card__content--blog {
-    max-width: 200px;
+    max-width: 300px;
     padding: 4px 0 0 0px;
   }
+  .card__image--blog {
+    max-width: 300px;
+    max-height: 190px;
+}
+.card__description--blog {
+  max-width: 280px;
+}
   .cards--new {
     grid-template-columns: repeat(2, 150px);
     grid-template-rows: repeat(2, 220px);
