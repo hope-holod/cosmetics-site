@@ -1029,107 +1029,118 @@ margin-left: 0;
 }
 @media (max-width: 425px) {
   .container {
-    max-width: 320px; 
+    max-width: 320px;
   }
- .line-container{
-  max-width: 425px; 
+  .line-container {
+    max-width: 425px;
+  }
+  .banner .container-banner p {
+    font-size: 20px;
+    max-width: 280px;
+  }
+  .heading {
+    font-size: 18px;
+    padding: 18px 0;
+  }
+  .cards--top {
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+  .card--article .card__content {
+    padding: 70px 20px 20px 24px;
+  }
+  .top .card__description {
+    max-width: 220px;
+  }
+  .top .card__label {
+    left: 25px;
+  }
+  .card--product .card__image--product {
+    max-width: 150px;
+    max-height: 179px;
+  }
+  .categories .heading, .blog .heading, .newproducts .heading {
+    padding: 18px 0;
+    line-height: 20px;
+  }
+  .gallery {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 195px);
+    justify-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .picture__img {
+    max-width: 300px;
 }
-.banner .container-banner p {
-  font-size: 20px;
+  .picture:nth-of-type(4), .picture:nth-of-type(5), .picture:nth-of-type(6) {
+    display: none;
+  }
+  .categories .button, .blog .button, .newproducts .button {
+    width: 300px;
+  }
+  .categories {
+    padding-bottom: 60px;
+  }
+  .cards--blog {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 25px;
+  }
+  .blog .card {
+    justify-self: center;
+    flex-wrap: nowrap;
+    max-width: 300px;
+  }
+  .card__content--blog {
+    max-width: 300px;
+    padding: 4px 0 0 0px;
+  }
+  .card__image--blog {
+    max-width: 300px;
+    max-height: 190px;
+}
+.card__description--blog {
   max-width: 280px;
 }
-.heading {
-  font-size: 18px;
-  padding: 18px 0;
-}
-.cards--top {
-  grid-template-columns: repeat(2, 150px);
-  gap: 20px;
-  padding-bottom: 40px;
-}
-.card--article .card__content {
-  padding: 70px 20px 20px 24px;
-}
-.top .card__description {
-max-width: 220px;
-}
-.top .card__label {
-  left: 25px;
-}
-.card--product .card__image--product {
-  max-width: 150px;
-  max-height: 179px;
-}
-.categories .heading, .blog .heading, .newproducts .heading{
-  padding: 18px 0;
-  line-height: 20px;
-}
-.gallery {
-  grid-template-columns: 200px;
-  grid-template-rows: repeat(3,140px);
-  justify-items: center;
-  justify-content: center;
-  gap: 15px;
-}
-.picture:nth-of-type(4), .picture:nth-of-type(5), .picture:nth-of-type(6){
-display: none;
-}
-.categories .button,.blog .button, .newproducts .button{
-  width: 280px;
-}
-.categories {
-  padding-bottom: 60px;
-}
-.cards--blog {
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 300px);
-  gap: 25px;
-}
-.blog .card {
-justify-self: center;
-}
-.card__content--blog {
-  max-width: 200px;
-  padding: 4px 0 0 0px;
-}
-
-.cards--new {
-  grid-template-columns: repeat(2, 150px);
-  grid-template-rows: repeat(2, 220px);
-  padding-bottom: 20px;
-}
-.newproducts {
-  padding-bottom: 60px;
-}
-.card__label--new {
-  top: 110px;
-  left: 23px;
-}
-.card__title--product {
-  font-size: 14px;
-}
-.advertisement .wordline {
-  font-size: 24px;
-  padding-bottom: 15px;
-}
-.advertisement .line1 {
-  padding-bottom: 15px;
-}
-.buttons {
-  padding: 0 0 15px 0;
-}
-.button--smaller {
-  height: 60px;
-  width: 220px;
-  font-size: 16px;
-}
-.form__heading {
-  max-width: 280px;
-  font-size: 24px;
-}    
-.form__input {
-  font-size: 20px;
-  width: 200px;
-  text-align: center;
-}
+  .cards--new {
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 220px);
+    padding-bottom: 20px;
+  }
+  .newproducts {
+    padding-bottom: 60px;
+  }
+  .card__label--new {
+    top: 110px;
+    left: 23px;
+  }
+  .card__title--product {
+    font-size: 14px;
+  }
+  .advertisement .wordline {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  .advertisement .line1 {
+    padding-bottom: 15px;
+  }
+  .buttons {
+    padding: 0 0 15px 0;
+  }
+  .button--smaller {
+    height: 60px;
+    width: 220px;
+    font-size: 16px;
+  }
+  .form__heading {
+    max-width: 280px;
+    font-size: 24px;
+  }
+  .form__input {
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+  }
 }
